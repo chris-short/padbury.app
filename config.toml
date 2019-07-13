@@ -1,0 +1,43 @@
+baseurl = "/"
+languageCode = "en"
+title = "Padbury Clock"
+theme = "vex"
+
+[params]
+  description = "A basic digital clock screensaver from Australian American designer Robert Padbury that displays the current time in an elegant and legible font, in either a 12 or a 24 hour format."
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = []
+  custom_scripts = []
+
+  # Additional meta
+  [[params.meta]]
+    name = "Padbury Clock"
+    description = "A basic digital clock screensaver from Australian American designer Robert Padbury that displays the current time in an elegant and legible font, in either a 12 or a 24 hour format."
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "Padbury Clock"
+    [[params.navbar.menu]]
+      link = "#"
+      text = "HOME"
+
+  # Header
+  [params.header]
+    title = "Padbury Clock by Robert Padbury"
+    text = "An homage to Padbury Clock: A basic digital clock screensaver from Australian American designer Robert Padbury that displays the current time in an elegant and legible font, in either a 12 or a 24 hour format."
+    [params.header.image]
+      path = "images/padbury-clock-screen-saver.png"
+      alt = "Screens"
+    [params.header.button]
+      link = "/padbury-clock.zip"
+      text = "Download "
+
+  [params.promo]
+    title = "Minimal screensaver for Mac"
+    text = "The Padbury Clock Screensaver is a minimalist's dream – and should be the default on every computer. You can choose between 12 hour and 24 hour format, and nothing more. It's simple, clean, give it a try on your machine. ✨"
+    [params.promo.image]
+      path = "images/padbury-clock-daniel-padbury.jpg"
+      alt = "Padbury Clock Screensaver"
+
+  # Footer uses navbar data
