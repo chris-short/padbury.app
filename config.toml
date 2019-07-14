@@ -47,7 +47,7 @@ theme = "vex"
       button_text = "Download "
     [[params.feature_list.items]]
       image = ""
-      title = "Found on Product"
+      title = "Found on Product Hunt"
       text = "Padbury Clock Screensaver, made by Robert Padbury, debuted on Product Hunt on 2015-03-26. It quickly rose to #3 Product of the Day. Rightfully so; Padbury Clock has been one of my favorite screensavers of all time since that day."
       button_link = "https://www.producthunt.com/posts/padbury-clock-screensaver"
       button_text = "See it on Product Hunt"
