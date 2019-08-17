@@ -14,13 +14,13 @@ build-preview:
     paths:
       - public
     expire_in: 1d
-  image: registry.gitlab.com/pages/hugo:latest
+  image: monachus/hugo:latest
   before_script:
-    - apk --no-cache update
-    - apk --no-cache add git
+    - apt-get -y update
+    - rm -rf /var/lib/apt/lists/* || exit 0
     - rm -rf public || exit 0
   script:
-    - hugo -DF
+    - hugo -v -DF
   except:
     - master
 
@@ -33,13 +33,13 @@ build-production:
     paths:
       - public
     expire_in: 3d
-  image: registry.gitlab.com/pages/hugo:latest
+  image: monachus/hugo:latest
   before_script:
-    - apk --no-cache update
-    - apk --no-cache add git
+    - apt-get -y update
+    - rm -rf /var/lib/apt/lists/* || exit 0
     - rm -rf public || exit 0
   script:
-    - hugo --minify
+    - hugo -v --minify
   only:
     - master
 
