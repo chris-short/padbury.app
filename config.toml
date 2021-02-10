@@ -55,7 +55,7 @@ theme = "vex"
       image = ""
       title = "Hi!"
       text = "I'm Chris Short. Apple macOS user, DevOps practioner, and all around nerd. I'm tired of sharing this with friends and then weeks later someone else coming to ask me for a copy of it."
-      button_link = "https://advisedbyshort.com/"
+      button_link = "https://chrisshort.net"
       button_text = "About Chris Short"
 
   # Footer uses navbar data
